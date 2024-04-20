@@ -16,10 +16,6 @@ Unsuccessful login
     Login    standard_userr    ${USER1_PASSWORD}
     User is not log in
 
-Purchase product
-    Login    ${USER1_EMAIL}    ${USER1_PASSWORD}
-    User is log in
-    Buy a product
 
 *** Keywords ***
 Login
@@ -35,17 +31,6 @@ User is log in
 User is not log in
     Get Text     ${SEL_UserLoginBtn}            ==        ${TEXT_Login}
     Take Screenshot
-
-Buy a product
-    Click                   ${SEL_ItemBackpack}
-    Click                   ${SEL_ShopingCart}
-    Click                   ${SEL_Checkout}
-    Type Text               ${SEL_CheckoutName}             ${TEXT_Name}
-    Type Text               ${SEL_CheckoutSurname}          ${TEXT_LastName}
-    Type Text               ${SEL_CheckoutZip}              ${TEXT_ZIP}
-    Click                   ${SEL_CheckoutContinue}
-    Click                   ${SEL_CheckoutFinish}
-    Click                   ${SEL_SuccessfulPurchase}
 
 Before test set
        New Browser        headless=False
