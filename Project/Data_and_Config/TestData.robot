@@ -23,10 +23,7 @@ ${SEL_ItemOnesie}                   data-test=add-to-cart-sauce-labs-onesie
 ${SEL_ItemBikeLight}                data-test=add-to-cart-sauce-labs-bike-light
 ${SEL_ItemFleeceJacket}             data-test=add-to-cart-sauce-labs-fleece-jacket
 ${SEL_ItemAll}                      data-test=add-to-cart-test.allthethings()-t-shirt-(red)
-
-
 ${SEL_ShopingCart}                  id=shopping_cart_container
-
 
 #Selectors for purchase
 ${SEL_Checkout}                     data-test=checkout
@@ -44,3 +41,8 @@ ${TEXT_Login}                       Login
 ${TEXT_Name}                        John
 ${TEXT_LastName}                    Doe
 ${TEXT_ZIP}                         11000
+
+#Sort by
+${SEL_SortContainer}                data-test=product-sort-container
+${SEL_SortName}                     data-test=inventory-item-name
+${SEL_SortPrice}                    data-test=inventory-item-price
