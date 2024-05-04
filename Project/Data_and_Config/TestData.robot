@@ -7,6 +7,10 @@
 ${USER1_EMAIL}                      standard_user
 ${USER1_PASSWORD}                   secret_sauce
 
+#Selector for accessibility and usability
+${TEXT_Title}                       Swag Labs
+${SEL_ErrorBtn}                     data-test=error-button
+
 #Selectors for login
 ${SEL_UserName}                     data-test=username
 ${SEL_LoginFormPwd}                 data-test=password
