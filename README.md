@@ -1,7 +1,7 @@
 # Saucedemo
 
 ## Project description
-This project is to practice my skills in Robot Framework - Browser library. 
+The objective of the Saucedemo project was to practice automated testing by creating and executing a few fundamental test cases. This website serves as an ideal platform for honing testing skills due to its simplicity. The test cases focused on basic functionalities such as login, product browsing, and checkout processes. Through this project, I gained valuable hands-on experience in automated testing while working with a straightforward yet effective testing environment.
 
 ## Structure of the project
 - <code>login-selectors.robot</code> - practising different styles of selectors
