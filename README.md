@@ -36,16 +36,21 @@ robot <test_case_file.robot>
 ### Project description
 The objective of the Saucedemo project was to practice automated testing by creating and executing a few fundamental test cases. This website serves as an ideal platform for honing testing skills due to its simplicity. The test cases focused on basic functionalities such as login, product browsing, and checkout processes. Through this project, I gained valuable hands-on experience in automated testing while working with a straightforward yet effective testing environment.
 
-## Structure of the project
+### Structure of the project
 The project structure consists of the following components:
-- <code>login-selectors.robot</code> - practising different styles of selectors
 
-- <code>loginWithVerification.robot</code> - this test case automates login functionality on the website. It includes scenarios for both successful and unsuccessful login attempts using if conditions
-
-- <code>numberProducts.robot</code> - this test case automates the process of logging in to the website as a user and verifies the number of available products on the page.
+1. PracticeTests:
+   - This directory contains practice test cases created during training sessions.
+3. Project
+   - This directory contains the main project, comprising test cases covering various functionalities, for example:
+     - <code>Login:</code> Test cases for user login functionality.
+     - <code>Sort By:</code> Test cases focusing on sorting products by different criteria.
+     - <code>Accessibility and Usability: </code> Test cases ensuring the accessibility and usability of the website.
+     - <code>Order Items:</code> Test cases related to ordering items from the website.
+     - <code>And much more:</code> Additional test cases covering various aspects of the website's functionality.
 
 ## Author
 Me, Veronika.
 
 ## Sources
-- used page: https://www.saucedemo.com/
+Used page: https://www.saucedemo.com/
