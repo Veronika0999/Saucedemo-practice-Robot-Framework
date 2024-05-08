@@ -49,8 +49,5 @@ The project structure consists of the following components:
      - <code>Order Items:</code> Test cases related to ordering items from the website.
      - And much more: Additional test cases covering various aspects of the website's functionality.
 
-## Author
-Me, Veronika.
-
 ## Sources
 Used page: https://www.saucedemo.com/
