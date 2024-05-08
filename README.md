@@ -47,7 +47,7 @@ The project structure consists of the following components:
      - <code>Sort By:</code> Test cases focusing on sorting products by different criteria.
      - <code>Accessibility and Usability: </code> Test cases ensuring the accessibility and usability of the website.
      - <code>Order Items:</code> Test cases related to ordering items from the website.
-     - <code>And much more:</code> Additional test cases covering various aspects of the website's functionality.
+     - And much more: Additional test cases covering various aspects of the website's functionality.
 
 ## Author
 Me, Veronika.
