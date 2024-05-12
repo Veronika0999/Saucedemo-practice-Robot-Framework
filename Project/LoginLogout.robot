@@ -16,6 +16,11 @@ Unsuccessful login
     Login    standard_userr    ${USER1_PASSWORD}
     User is not log in
 
+Successful logout
+    Login    ${USER1_EMAIL}    ${USER1_PASSWORD}
+    User is log in
+    Log out
+
 
 *** Keywords ***
 Login
@@ -30,6 +35,12 @@ User is log in
 
 User is not log in
     Get Text     ${SEL_UserLoginBtn}            ==        ${TEXT_Login}
+    Take Screenshot
+
+Log out
+    Click       ${SEL_BurgerMenu}
+    Click       ${SEL_LogoutBtn}
+    Get Text    ${SEL_LoginCredentials}
     Take Screenshot
 
 Before test set
