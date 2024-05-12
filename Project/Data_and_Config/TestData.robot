@@ -16,6 +16,11 @@ ${SEL_UserName}                     data-test=username
 ${SEL_LoginFormPwd}                 data-test=password
 ${SEL_UserLoginBtn}                 data-test=login-button
 
+#Selectors for logout
+${SEL_BurgerMenu}                   id=react-burger-menu-btn
+${SEL_LogoutBtn}                    data-test=logout-sidebar-link
+${SEL_LoginCredentials}             data-test=login-credentials
+
 #Selectors for products
 ${SEL_ItemBackpack}                 data-test=add-to-cart-sauce-labs-backpack
 ${SEL_ItemTShirt}                   data-test=add-to-cart-sauce-labs-bolt-t-shirt
